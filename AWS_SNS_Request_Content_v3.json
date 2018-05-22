@@ -1,0 +1,59 @@
+{
+  "Records": [
+    {
+      "EventVersion": "1.0",
+      "EventSource": "aws:sns",
+      "EventSubscriptionArn": "arn:aws:sns:us-east-1:657315558120:potato-msg:cd94cac1-aa11-46e3-b337-dde87608926b",
+      "Sns": {
+        "SignatureVersion": "1",
+        "Timestamp": "2017-11-29T06:38:10.074Z",
+        "Signature": "ahiNcBNnA9H4SrjP963niScXHDM1f2Xi1oLb4KywRfMNJBl87ZsMd5A9Y3ePsKS8TviNPBiKXFYf2aPjBQs+cgeyirRXpo54oad+K+SWOeCo6/UHD0nF6bOHTMihVGfZXwhb5XaxDpASKjX+7g5vKAmqtglJebUdd+rGFixFAVLltdubwb06fGQlYohOejAV3KC4D6wxpegUYO/5MJgyiDd51+R/EPXLhYH0GdCLMqq5Kzy+raFXQX9zkur5kX2sKtpsi3+GWf4IEP0yxawJEoI2KoVewr8jNoJwaL+MUZpl3OpaGA8qSDph7JVT7glTc2jEGfC9yW31hwanmPCURQ==",
+        "SigningCertUrl": "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-433026a4050d206028891664da859041.pem",
+        "MessageId": "a103cc39-d2dc-58b8-9b00-9ea18ace4d21",
+        "Message": "{\"default\": \"help\", \"lambda\": \"aaa\"}",
+        "Subject": "Potato_Msg",
+        "Type": "Notification",
+        "UnsubscribeUrl": "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:657315558120:potato-msg:cd94cac1-aa11-46e3-b337-dde87608926b",
+        "TopicArn": "arn:aws:sns:us-east-1:657315558120:potato-msg",
+        "MessageAttributes": {
+          "message_source": {
+            "Type": "String",
+            "Value": "potato"
+          },
+          "first_name": {
+            "Type": "String",
+            "Value": "test_user"
+          },
+          "last_name": {
+            "Type": "String",
+            "Value": "HaHa"
+          },
+          "user_id": {
+            "Type": "String",
+            "Value": "20041626"
+          },
+          "uuid": {
+            "Type": "String",
+            "Value": "1debb975-ea07-4fab-88b1-bbe6fb414ec4"
+          },
+          "chat_type": {
+            "Type": "String",
+            "Value": "2"
+          },
+          "chat_id": {
+            "Type": "String",
+            "Value": "10012105"
+          },
+          "message_id": {
+            "Type": "String",
+            "Value": "284"
+          },
+          "chat_title":{
+            "Type": "String",
+            "Value": "hahahaChat"
+          }
+        }
+      }
+    }
+  ]
+}

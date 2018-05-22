@@ -1,0 +1,37 @@
+{
+  "queue": [
+    {
+      "toolId": "pt15dc1868f43711e7853d8c859066a326",
+      "conditions": [],
+      "params": {
+        "n": "google.com",
+        "chat_type": "{{CMDB.123456789.dns2.chat_type}}",
+        "chat_id": "{{CMDB.123456789.dns2.chat_id}}"
+      }
+    },
+    {
+      "toolId": "ptbd372662f43611e7a1d28c859066a326",
+      "conditions": [],
+      "params": {
+        "message_source": "potato",
+        "first_name": "test_user",
+        "last_name": "HaHa",
+        "user_id": "20041626",
+        "uuid": "1debb975-ea07-4fab-88b1-bbe6fb414ec4",
+        "chat_type": "2",
+        "chat_id": "10012105",
+        "message_id": "284",
+        "chat_title": "hahahaChat"
+      }
+    }
+  ],
+  "results": {
+    "pt15dc1868f43711e7853d8c859066a326": {},
+    "ptbd372662f43611e7a1d28c859066a326": {}
+  },
+  "chatId": "10012105",
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwb3RhdG9JZCI6IjIwMDQxNjI2IiwiaWF0IjoxNTI2MDAzNzM4fQ.HGLb9hu6wYINZU6LXsuCYC26KkYlu3Ikx7b3AFOI2RA",
+  "workflowName": "dntime",
+  "userId": "123456789",
+  "statusCode": 200
+}
